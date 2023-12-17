@@ -60,9 +60,7 @@ public class Encryptor {
 
         String stringKey = "65 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12";
 
-
         byte[] key = encryptor.stringToByteArray(stringKey);
-
         String input = "Secret";
 
         System.out.println(encryptor.encrypt(input,key));
